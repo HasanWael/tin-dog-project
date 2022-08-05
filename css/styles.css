@@ -81,6 +81,7 @@ p {
 #features {
   text-align: center;
   padding: 7% 15%;
+  background-color: white;
 }
 
 .features-icons {
@@ -125,8 +126,15 @@ p {
 }
 
 /* Pricing Section */
+#pricing {
+  padding: 2.5rem;
+}
+
 .card-deck {
   display: block;
 }
 
+.pricing-column {
+  padding: 2rem;
+}
 /* -----------------   CSS  ---------------    */

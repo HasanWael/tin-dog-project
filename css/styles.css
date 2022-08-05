@@ -124,5 +124,9 @@ p {
   margin: 20px 20px 50px;  /* margin:--> top left&right bottom; */
 }
 
+/* Pricing Section */
+.card-deck {
+  display: block;
+}
 
 /* -----------------   CSS  ---------------    */

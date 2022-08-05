@@ -18,6 +18,12 @@ h1 {
   margin-top: 5rem;
 }
 
+h2 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 h3 {
   font-size: 1.5rem;
   font-family: 'Montserrat-bold', sans-serif;
@@ -89,9 +95,34 @@ p {
   padding: 5%;
 }
 
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #fff;
+}
 
+.carousel-item {
+  padding: 7% 15%;
+}
 
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
 
+/* press section */
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-imgs {
+  width: 15%;
+  margin: 20px 20px 50px;  /* margin:--> top left&right bottom; */
+}
 
 
 /* -----------------   CSS  ---------------    */

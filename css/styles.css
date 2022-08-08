@@ -224,6 +224,11 @@ p {
   .logo {
     font-size: 3rem;
   }
+
+  .btn-back-to-top {
+    height: 120px;
+    width: 120px;
+  }
 }
 
 /* ----------------- */

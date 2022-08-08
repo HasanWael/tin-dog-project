@@ -1,28 +1,10 @@
-* {
-  margin: 0;
-}
-
 /* -----------------  HTML ------------ -----   */
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-size: 3.5rem;
-  line-height: 1.5;
-  margin-top: 5rem;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat-bold', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-family: 'Montserrat-bold', sans-serif;
-  font-weight: 800;
 }
 
 p {
@@ -39,6 +21,37 @@ p {
 
 .container-fluid {
   padding: 3% 15% 7%;
+}
+
+/*   Headings   */
+
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0.2rem auto 0.2rem;
 }
 
 #title {
@@ -72,6 +85,7 @@ p {
 
 .navbar {
   padding: 0 0 4.5rem;
+  margin-bottom: 5rem;
 }
 
 /* Download Buttons */
@@ -110,6 +124,11 @@ p {
   padding: 7% 15%;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .testimonial-img {
   width: 10%;
   border-radius: 100%;
@@ -131,6 +150,11 @@ p {
 /* Pricing Section */
 #pricing {
   padding: 2rem 0;
+  text-align: center;
+}
+
+.pricing-p {
+  margin: auto auto 3rem;
 }
 
 .card-deck {
@@ -185,7 +209,7 @@ p {
   z-index: 5;
 }
 
-@media (max-width: 1123px) {
+@media (max-width: 991px) {
 
   #title {
     text-align: center;
@@ -195,6 +219,11 @@ p {
     transform: rotate(0);
     position: static;
     margin-top: 5%;
+  }
+
+  #features {
+    position: relative;
+    bottom: 12rem;
   }
 }
 
